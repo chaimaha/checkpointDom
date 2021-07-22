@@ -1,0 +1,127 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #f1ecc3;
+}
+/*navbar*/
+
+/* logo */
+#logo {
+  height: 5%;
+  width: 5%;
+  padding: 1%;
+  margin: 1%;
+}
+
+/*------------------------------------------------------------------------------------------------------------------*/
+/* INDEX page */
+
+/*cards section*/
+#cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 4%;
+}
+
+/*card*/
+.card {
+  margin: 2%;
+}
+/*-------------------------------------------------------------------------------------------------------------------------*/
+/*pay page */
+
+/*cart body*/
+.cart {
+  margin: 10rem auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cart-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+th {
+  text-align: left;
+  padding: 0.5rem;
+  color: #fff;
+  background-color: #57837b;
+  font-weight: normal;
+
+  justify-content: space-around;
+}
+
+td {
+  padding: 1rem 0.5rem;
+}
+
+td input {
+  width: 5rem;
+  height: 3rem;
+  padding: 0.5rem;
+}
+
+td img {
+  width: 8rem;
+  height: 8rem;
+  margin-right: 1rem;
+}
+.btnlike {
+  height: 10%;
+  width: 10%;
+  border: none;
+  background-color: #f1ecc3;
+
+  padding: 5%;
+}
+.btnlike img {
+  fill: black;
+  padding: 10%;
+  height: 30px;
+  width: 30px;
+}
+.btndelate {
+  border: none;
+  color: red;
+  background-color: #f1ecc3;
+}
+.plus,
+.moin {
+  background-color: #515e63;
+  border: none;
+  border-radius: 30%;
+  height: 25px;
+  width: 25px;
+}
+.total-price {
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.total-price table {
+  border-top: 3px solid #57837b;
+  width: 100%;
+  max-width: 35rem;
+}
+td:last-child {
+  text-align: right;
+}
+
+th:last-child {
+  text-align: right;
+}
+
+@media only screen and (max-width: 567px) {
+  .cart-info p {
+    display: none;
+  }
+}
